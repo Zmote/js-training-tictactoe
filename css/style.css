@@ -1,0 +1,19 @@
+.myContainer{
+    text-align: center;
+    width:100%;
+}
+
+.myContainer > div > div{
+    border:5px solid black;
+    height: 25vh;
+    font-size:20rem;
+    line-height: 25vh;
+}
+
+#xButton,#oButton{
+    width:100%;
+    margin-bottom:10px;
+}
+.gameNotStarted > div > div{
+    background-color:grey;
+}
